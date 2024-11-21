@@ -799,8 +799,8 @@ function RayfieldLibrary:Notify(data) -- action e.g open messages
 		newNotification.Visible = true
 
 		if data.Actions then
-			warn('Not seeing your actions in notifications?')
-			print("Notification Actions are being sunset for now, keep up to date on when they're back in the discord.")
+			warn('Rayfield | Not seeing your actions in notifications?')
+			print("Notification Actions are being sunset for now, keep up to date on when they're back in the discord. (sirius.menu/discord)")
 		end
 
 		-- Calculate textbounds and set initial values
@@ -1227,7 +1227,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "Interface Suite"
 
 	if Settings.LoadingTitle ~= "Rayfield Interface Suite" then
-		LoadingFrame.Version.Text = "Hello?"
+		LoadingFrame.Version.Text = "Rayfield UI"
 	end
 	
 	if Settings.Icon and Settings.Icon ~= 0 and Topbar:FindFirstChild('Icon') then
@@ -1277,7 +1277,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 			while true do
 				task.wait(math.random(180, 600))
 				RayfieldLibrary:Notify({
-					Title = "hungquan99",
+					Title = "Software",
 					Content = "Enjoying this script? Find it at discord.gg/NxHT2rSynR",
 					Duration = 7,
 					Image = 4370033185,
