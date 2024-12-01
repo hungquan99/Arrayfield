@@ -665,7 +665,7 @@ do -- Library
 
 			local ImageLabel = Instance.new("ImageLabel")
 			ImageLabel.Name = "ImageLabel"
-			ImageLabel.Image = "rbxassetid://297774371"
+			ImageLabel.Image = "rbxassetid://6034509987"
 			ImageLabel.ImageColor3 = Color3.fromRGB(0, 0, 0)
 			ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			ImageLabel.BackgroundTransparency = 1
