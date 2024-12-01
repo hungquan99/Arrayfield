@@ -665,7 +665,7 @@ do -- Library
 
 			local ImageLabel = Instance.new("ImageLabel")
 			ImageLabel.Name = "ImageLabel"
-			ImageLabel.Image = "rbxassetid://6034509987"
+			ImageLabel.Image = "rbxassetid://297774371"
 			ImageLabel.ImageColor3 = Color3.fromRGB(0, 0, 0)
 			ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			ImageLabel.BackgroundTransparency = 1
@@ -741,7 +741,7 @@ do -- Library
 
 			local Shadow = Instance.new("ImageLabel")
 			Shadow.Name = "umbraShadow"
-			Shadow.Image = "rbxassetid://6034509987"
+			Shadow.Image = "rbxassetid://1316045217"
 			Shadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
 			Shadow.ImageTransparency = 0.86
 			Shadow.ScaleType = Enum.ScaleType.Slice
@@ -755,7 +755,7 @@ do -- Library
 
 			local Shadow1 = Instance.new("ImageLabel")
 			Shadow1.Name = "penumbraShadow"
-			Shadow1.Image = "rbxassetid://6034509987"
+			Shadow1.Image = "rbxassetid://1316045217"
 			Shadow1.ImageColor3 = Color3.fromRGB(0, 0, 0)
 			Shadow1.ImageTransparency = 0.88
 			Shadow1.ScaleType = Enum.ScaleType.Slice
@@ -769,7 +769,7 @@ do -- Library
 
 			local Shadow2 = Instance.new("ImageLabel")
 			Shadow2.Name = "ambientShadow"
-			Shadow2.Image = "rbxassetid://6034509987"
+			Shadow2.Image = "rbxassetid://1316045217"
 			Shadow2.ImageColor3 = Color3.fromRGB(0, 0, 0)
 			Shadow2.ImageTransparency = 0.49
 			Shadow2.ScaleType = Enum.ScaleType.Slice
@@ -998,7 +998,7 @@ do -- Library
 			
 			local Page = {
 				Name = Properties.Name or Properties.name or "Page",
-				Icon = Properties.Icon or "rbxassetid://6034509987",
+				Icon = Properties.Icon or "rbxassetid://17023142662",
 				Window = self,
 				Open = false,
 				Sections = {},
@@ -2228,12 +2228,12 @@ do -- Library
 			local Content = Library:NewInstance("ScrollingFrame", true)
 			Content.Name = "Content"
 			Content.AutomaticCanvasSize = Enum.AutomaticSize.Y
-			Content.BottomImage = "rbxassetid://6034509987"
+			Content.BottomImage = "rbxassetid://7783554086"
 			Content.CanvasSize = UDim2.new()
-			Content.MidImage = "rbxassetid://6034509987"
+			Content.MidImage = "rbxassetid://7783554086"
 			Content.ScrollBarImageColor3 = Library.Accent
 			Content.ScrollBarThickness = 4
-			Content.TopImage = "rbxassetid://6034509987"
+			Content.TopImage = "rbxassetid://7783554086"
 			Content.Active = true
 			Content.AutomaticSize = Enum.AutomaticSize.Y
 			Content.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
@@ -3297,12 +3297,12 @@ do -- Library
 			local List = Library:NewInstance("ScrollingFrame", true)
 			List.Name = "List"
 			List.AutomaticCanvasSize = Enum.AutomaticSize.Y
-			List.BottomImage = "rbxassetid://6034509987"
+			List.BottomImage = "rbxassetid://7783554086"
 			List.CanvasSize = UDim2.new()
-			List.MidImage = "rbxassetid://6034509987"
+			List.MidImage = "rbxassetid://7783554086"
 			List.ScrollBarImageColor3 = Library.Accent
 			List.ScrollBarThickness = 8
-			List.TopImage = "rbxassetid://6034509987"
+			List.TopImage = "rbxassetid://7783554086"
 			List.Active = true
 			List.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 			List.BorderColor3 = Color3.fromRGB(30, 30, 30)
