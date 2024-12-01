@@ -998,7 +998,7 @@ do -- Library
 			
 			local Page = {
 				Name = Properties.Name or Properties.name or "Page",
-				Icon = Properties.Icon or "rbxassetid://17023142662",
+				Icon = Properties.Icon or "rbxassetid://6034509987",
 				Window = self,
 				Open = false,
 				Sections = {},
